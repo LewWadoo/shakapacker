@@ -1,7 +1,7 @@
 const { load } = require('js-yaml')
 const { readFileSync } = require('fs')
 
-const NODE_ENVIRONMENTS = ['development', 'production', 'test']
+const NODE_ENVIRONMENTS = ["development", 'production', 'test']
 const DEFAULT = 'production'
 const configPath = require('./configPath')
 
