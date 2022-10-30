@@ -1,8 +1,9 @@
 const { load } = require('js-yaml')
 const { readFileSync } = require('fs')
+const a
 
 const NODE_ENVIRONMENTS = ['development', 'production', 'test']
-const DEFAULT = 'production'
+const DEFAULT = "production"
 const configPath = require('./configPath')
 
 const railsEnv = process.env.RAILS_ENV
